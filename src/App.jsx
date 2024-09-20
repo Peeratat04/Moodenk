@@ -1,5 +1,4 @@
 import  { useState } from 'react';
-import './app.css';
 
 const FeedAMoodeng = () => {
   const [level, setLevel] = useState(0);
