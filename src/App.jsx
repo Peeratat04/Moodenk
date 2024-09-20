@@ -3,7 +3,7 @@ import  { useState } from 'react';
 const FeedAMoodeng = () => {
   const [level, setLevel] = useState(0);
   const [size, setSize] = useState(100); 
-  const [image, setImage] = useState('src/Moodag.jpeg'); 
+  const [image, setImage] = useState('../src/Moodag.jpeg'); 
 
   const handleFeed = (food) => {
     let levelIncrease = 0;
@@ -19,7 +19,7 @@ const FeedAMoodeng = () => {
 
   
     if (newLevel > 100) {
-      setImage('src/Me.jpg');
+      setImage('../src/Me.jpg');
     }
   };
 
