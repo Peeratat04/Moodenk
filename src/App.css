@@ -1,59 +1,5 @@
 /* app.css */
 
 /* app.css */
-body {
-  margin: 0;
-  padding: 0;
-  background-color: rgb(255, 255, 255);
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: Arial, sans-serif;
-}
 
-.container {
-  text-align: center;
-}
-
-
-.level {
-  color: #00ffff;
-  font-size: 1.8rem;
-  margin-bottom: 20px;
-  text-shadow: 1px 1px 3px #ff66ff; /* เงาสีชมพู */
-}
-
-img {
-  border-radius: 50%;
-  border: 5px solid rgb(56, 56, 56);
-}
-
-button {
-  background-color: #ff00c8;
-  color: white;
-  border: none;
-  border-radius: 10px;
-  padding: 10px 20px;
-  margin: 10px;
-  font-size: 1.2rem;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-button:hover {
-  background-color: #33fcff;
-}
-
-h1 {
-  color: #2c46f6;
-}
-
-h2 {
-  color: #26cbe8;
-}
-
-h3 {
-  color: #5a5a5a;
-}
 
